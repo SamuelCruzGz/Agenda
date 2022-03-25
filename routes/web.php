@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use GuzzleHttp\Client;
+use App\Http\Controllers\UserController ;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,45 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('calendar', function(){
+    return view ('calendar');
+});
+
+Route::post("users",[UserController::class, 'getData']);
+
+Route::resource('date',UserController::class);
+
+Route::post('date',[UserController::class, 'getDate']);
+
+
+Route::get('form', function(){
+    return view ('form');
+});
+
+
+
+
+Route::get('calendar/pdf/',[App\Http\Controllers\UserController::class, 'pdf']);
+
+
+
+Route::get ('gfg', function() {
+    return view ('gfg');
+});
+
+
+
+
+Auth::routes();
+
+
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+

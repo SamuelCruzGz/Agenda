@@ -1,9 +1,13 @@
 <?php
 
+
+
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
 
 define('LARAVEL_START', microtime(true));
+
+//die($_SERVER['REQUEST_URI']);
 
 /*
 |--------------------------------------------------------------------------

@@ -1,0 +1,365 @@
+body{
+    background-color: white;
+}
+
+
+
+.pleca{
+    position: fixed;
+    width: 100%;    
+    height: auto;
+    top: 0%;
+    left: 0%;
+}
+
+.pleca_superior{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}  
+
+.banner{
+    position: fixed;
+    border: 1px solid black;
+    width: 100%;
+    left: 0%;
+    top: 7%;
+    height: 150px;
+}
+
+
+
+.logoUAEM {
+    
+    width: 41%;
+    height: 66%;
+    margin-top: 2%;
+    object-fit: contain;
+}
+
+.form{
+    position: absolute;
+    top: 500px;
+}
+
+.form-group{
+    font-size: 30px;
+    font-weight: bolder;
+    position: fixed;
+    right: 42%;
+    
+    top: 30%;
+    padding: 10px 10px;
+}
+
+.pleca_inferior{
+    position: fixed;
+    width: 100%;    
+    height: 35%;
+    bottom: 0%;
+    left: 0%;
+    
+}
+
+.form-control{
+    position: fixed;
+    right: 43.5%;
+    top: 40%;
+    border-radius: 10px;
+    border-right: solid 2px #63846c;
+    border-left: solid 2px #a59c67;
+    border-top: solid 2px #63846c;
+    border-bottom: solid 2px #a59c67;
+    
+}
+
+.form-control1::-webkit-input-placeholder{
+    text-align: center;
+    font: bolder;
+    color: black;
+
+}
+
+.form-control2::-webkit-input-placeholder{
+    text-align: center;
+    font: bolder;
+    color: black;
+
+}
+
+.form-control3::-webkit-input-placeholder{
+    text-align: center;
+    font: bolder;
+    color: black;
+
+}
+
+
+.btn-primary{
+    position: fixed;
+    padding: 0.6% 3%;
+    right: 44%;
+    top: 46%;
+    border-radius: 10px;
+    border-right: solid 2px #63846c;
+    border-left: solid 2px #a59c67;
+    border-top: solid 2px #63846c;
+    border-bottom: solid 2px #a59c67;
+    background-image:  linear-gradient(to right, rgba(156,148,100,0), rgba(108,148,124,1));
+    text-decoration: none;
+    color: black;
+}
+.btn-enviar{
+    position: fixed;
+    padding: 0.6% 3%;
+    right: 44%;
+    top: 65%;
+    border-radius: 10px;
+    border-right: solid 2px #63846c;
+    border-left: solid 2px #a59c67;
+    border-top: solid 2px #63846c;
+    border-bottom: solid 2px #a59c67;
+    background-image:  linear-gradient(to right, rgba(156,148,100,0), rgba(108,148,124,1));
+    text-decoration: none;
+    color: black;
+}
+
+.form-group1{
+    font-size: 30px;
+    font-weight: bolder;
+    position: fixed;
+    right: 16%;
+    top: 30%;
+}
+
+.form-group2{
+    font-size: 30px;
+    font-weight: bolder;
+    position: fixed;
+    right: 45%;
+    
+    top: 30%;
+}
+
+.form-group3{
+    font-size: 30px;
+    font-weight: bolder;
+    position: fixed;
+    right: 66%;
+    
+    top: 30%;
+}
+
+.form-control1{
+    position: fixed;
+    right: 17.5%;
+    top: 40%;
+    border-radius: 10px;
+    border-right: solid 2px #63846c;
+    border-left: solid 2px #a59c67;
+    border-top: solid 2px #63846c;
+    border-bottom: solid 2px #a59c67;
+}
+.form-control2{
+    position: fixed;
+    right: 40%;
+    top: 40%;
+    border-radius: 10px;
+    border-right: solid 2px #63846c;
+    border-left: solid 2px #a59c67;
+    border-top: solid 2px #63846c;
+    border-bottom: solid 2px #a59c67;
+}
+
+.form-control3{
+    position: fixed;
+    right: 64%;
+    top: 40%;
+    border-radius: 10px;
+    border-right: solid 2px #63846c;
+    border-left: solid 2px #a59c67;
+    border-top: solid 2px #63846c;
+    border-bottom: solid 2px #a59c67;
+
+}
+.alert-success{
+    background:linear-gradient( #63846c,  #a59c67);
+    width: 600px;
+    height: 300px;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid black;
+    color: white;
+}
+.alerta{
+    background:linear-gradient( #63846c,  #a59c67);
+    width: 600px;
+    height: 300px;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid black;
+    color: white;
+}
+.modal_cerrar{
+    background: white;
+    position: absolute;
+    right: -20px;
+    color: #63846c;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #a59c67 ;
+}
+
+.modal_cerrar:hover{
+    background: #63846c;
+    position: absolute;
+    right: -20px;
+    color: white;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #a59c67 ;
+}
+
+#agenda{
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    top: 30%;
+    right: 24%;
+}
+
+#ple_inf {
+    position: fixed;
+    width: 100%;    
+    height: 8%;
+    bottom: 0%;
+    left: 0%;
+}
+
+.modalC{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  .fecha{
+      position: absolute;
+      padding: 0% 5%;
+      top: 25%;
+      right: 40%;
+      border-radius: 10px;
+      border-right: solid 2px #63846c;
+      border-left: solid 2px #a59c67;
+      border-top: solid 2px #63846c;
+      border-bottom: solid 2px #a59c67;
+  }
+
+  .fechaL{
+    position: absolute;
+    top: 20%;
+    right: 50%;
+    font-size: 160%;
+    color: rgb(0, 0, 0);
+
+}
+
+
+  .motivo{
+      position: absolute;
+      padding: 0% 12%;
+      top: 35%;
+      right: 30%;
+      border-radius: 10px;
+      border-right: solid 2px #63846c;
+      border-left: solid 2px #a59c67;
+      border-top: solid 2px #63846c;
+      border-bottom: solid 2px #a59c67;
+      
+  }
+
+  .motivoL{
+    position: absolute;
+
+    top: 30%;
+    right: 50%;
+    font-size: 160%;
+    color: black;
+  }
+
+  .pdf{
+      position: absolute;
+      text-decoration: none;
+      font-size: 15px;
+        padding: 15px 20px;
+      border-radius: 10px;
+      border-right: solid 2px #63846c;
+      border-left: solid 2px #a59c67;
+      border-top: solid 2px #63846c;
+      border-bottom: solid 2px #a59c67;
+      top: 82%;
+      left: 85%;
+        color: rgb(35, 61, 29);
+  }
+
+  .logoUAEM-pdf{
+      position: absolute;        
+        left: 72.5%;
+        width: 20%;
+        height: 10%;
+        top:5%;
+  }
+
+  .pleca_superior-pdf{
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      top: -29%;
+  }
