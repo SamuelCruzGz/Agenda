@@ -20,17 +20,19 @@
     
     <div class="form">
     
-        <form action="users" method="POST">
+        <form action="envCuenta" method="POST">
             <input type = "hidden" name = "_token" value = "<?php echo csrf_token(); ?>"><input type = "hidden" name = "_token" value = "<?php echo csrf_token(); ?>">
-           
-            <label class="form-group1">MATRÍCULA</label>
-            <input type="text" class="form-control1" placeholder="{{$cuenta}}" readonly>
+   
+       
+            
+          <label class="form-group1">MATRÍCULA</label>
+            <input type="text" class="form-control1" placeholder="{{$cuenta}}" name="cuenta" value="{{$cuenta}}" readonly>
             <label class="form-group2">NOMBRE</label>
             <input type="text" class="form-control2" placeholder="{{$nombre}}" readonly size="35"> <br>
             <label class="form-group3">PLAN DE ESTUDIO</label>
-            <input type="text" class="form-control3" placeholder="{{$plan}}" readonly size="45"> <br>
-            <a href="{{url('/calendar')}}" class="btn btn-primary">Agendar Cita</a>
-            
+            <input type="text" class="form-control3" placeholder="{{$plan}}" readonly size="45"> <br>-->
+
+            <button class="btn btn-primary" type="submit">Agendar Cita</button>
         </form>   
         
     </div>

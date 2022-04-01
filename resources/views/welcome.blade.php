@@ -61,7 +61,6 @@
     </div>
 
 <script>
-
     function closeD() {
     var x = document.getElementById("cerrar");
     var alerta = document.getElementById("alerta");
