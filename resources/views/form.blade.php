@@ -28,9 +28,9 @@
           <label class="form-group1">MATRÍCULA</label>
             <input type="text" class="form-control1" placeholder="{{$cuenta}}" name="cuenta" value="{{$cuenta}}" readonly>
             <label class="form-group2">NOMBRE</label>
-            <input type="text" class="form-control2" placeholder="{{$nombre}}" readonly size="35"> <br>
+            <input type="text" class="form-control2" placeholder="{{$nombre}}" readonly size="45"> <br>
             <label class="form-group3">PLAN DE ESTUDIO</label>
-            <input type="text" class="form-control3" placeholder="{{$plan}}" readonly size="45"> <br>-->
+            <input type="text" class="form-control3" placeholder="{{$plan}}" readonly size="45"> <br>
 
             <button class="btn btn-primary" type="submit">Agendar Cita</button>
         </form>   

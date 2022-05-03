@@ -24,6 +24,7 @@
         <input type="text" id="fecha" class="fecha" name="fecha" readonly> 
         <label class="motivoL">Motivo: </label>
         <textarea  id="motivo" name="motivo" class="motivo" cols="30" rows="10"></textarea>
+        <input type="text" class="form-control5"  name="cuenta" value="{{$cuenta}}" readonly hidden="true"> <br>
         <button type="submit"
             
             class=" btn-enviar">Enviar</button>

@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var calendarEl = document.getElementById('agenda');
     var calendar = new FullCalendar.Calendar(calendarEl, {
       initialView: 'dayGridMonth',
+      weekends : false,
       businessHours: 
         {
         idName: 'evento',
@@ -11,13 +12,16 @@ document.addEventListener('DOMContentLoaded', function() {
         end : '16:00:00',
         color : '#515',
         rendering : 'inverse-background',
-        dow : [1,2,3,4,5]
+        dow : [1,2,3,4,5],
+        
+
         },
 
       locale : "es",
 
         dateClick:function(info) {
             var actual = new Date();
+            
             if(info.date >= actual){
                 evento.style.display = "block"
 
@@ -32,7 +36,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 alert("Error: No se puede solicitar una cita en una fecha vencida");
             }
-        }
+            
+            
+        },
+
+     
+
     });
     
   
